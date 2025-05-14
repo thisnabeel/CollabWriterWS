@@ -1,0 +1,11 @@
+{
+  "name": "collab-writer-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "@y/websocket-server": "^0.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
