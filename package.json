@@ -1,11 +1,11 @@
 {
-  "name": "collab-writer-server",
+  "name": "yjs-websocket-railway",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Yjs WebSocket server using @y/websocket-server for Railway deployment",
+  "scripts": {
+    "start": "HOST=0.0.0.0 PORT=${PORT} npx y-websocket"
+  },
   "dependencies": {
     "@y/websocket-server": "^0.1.1"
-  },
-  "scripts": {
-    "start": "node server.js"
   }
 }
